@@ -1,14 +1,14 @@
 {
-  "name": "gatsby-starter-spectral",
+  "name": "difez-gatsby",
   "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Spectral by HTML5 UP",
+  "description": "Estudio jurídico Difez",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-spectral.git"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Angel Meza",
+    "email": "angel.meza.pena@gmail.com"
   },
   "dependencies": {
     "gatsby": "^2.4.3",

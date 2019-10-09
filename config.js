@@ -1,15 +1,15 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Spectral', // <title>
-  manifestName: 'Spectral',
-  manifestShortName: 'Landing', // max 12 characters
+  siteTitle: 'Estudio Jurídico DIFEZ', // <title>
+  manifestName: 'Estudio Jurídico DIFEZ',
+  manifestShortName: 'DIFEZ', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  heading: 'Estudio Jurídico DIFEZ',
+  subHeading: 'Comprometidos con la visión de los clientes  ',
   // social
   socialLinks: [
     {
