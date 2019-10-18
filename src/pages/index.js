@@ -53,15 +53,17 @@ const IndexPage = () => (
           <h2>
             Contabilidad
           </h2>
-          <p>          
-            Servicio contable completo.<br/>
-            Determinación del cálculo de IVA.<br/>
-            Determinación de renta y sus obligaciones de acesorias anuales.<br/>
-            Ingreso de compras y ventas electrónicas.<br/>
-            Confección del presupuesto de la empresa.<br/>
-            Reportabilidad.<br/>
-            Balance proyectado (Reporte Mensual).
-          </p>
+         
+            <ul style={{listStyleType: 'none', textAlign: 'left'}}>
+              <li>Servicio contable completo.</li>
+              <li>Determinación del cálculo de IVA.</li>
+              <li>Determinación de renta y sus obligaciones de acesorias anuales.</li>
+              <li>Ingreso de compras y ventas electrónicas.</li>
+              <li>Confección del presupuesto de la empresa.</li>
+              <li>Reportabilidad.</li>
+              <li>Balance proyectado (Reporte Mensual).</li>
+            </ul>
+          
         </div>
       </section>
       <section className="spotlight">
@@ -73,12 +75,14 @@ const IndexPage = () => (
           Asesoría legal y tributaria
             
           </h2>
-          <p>
-            Planificación tributaria.<br />
-            Asesoría en Regímenes Especiales.<br />
-            Utilización Reinversión de utilidades.<br />
-            Declaraciones tributarias de carácter legal.
-          </p>
+          
+            <ul style={{listStyleType: 'none', textAlign: 'left'}}>
+              <li>Planificación tributaria.</li>
+              <li>Asesoría en Regímenes Especiales.</li>
+              <li>Utilización Reinversión de utilidades.</li>
+              <li>Declaraciones tributarias de carácter legal.</li>
+            </ul>
+          
         </div>
       </section>
       <section className="spotlight">
@@ -89,12 +93,14 @@ const IndexPage = () => (
           <h2>
             Auditorias
           </h2>
-          <p>
-            Auditoria de estados financieros.<br />
-            Auditorias de control interno.<br />
-            Auditoria de clima organizacional.<br />
-            Auditoria en temas específicos.
-          </p>
+          
+            <ul style={{listStyleType: 'none', textAlign: 'left'}}>
+              <li>Auditoria de estados financieros.</li>
+              <li>Auditorias de control interno.</li>
+              <li>Auditoria de clima organizacional.</li>
+              <li>Auditoria en temas específicos.</li>
+            </ul>
+         
         </div>
       </section>
     </section>
