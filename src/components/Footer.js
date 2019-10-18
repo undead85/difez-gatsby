@@ -8,17 +8,17 @@ export default function Footer() {
           const { style, icon, name, url } = social;
           return (
             <li key={url}>
-              <a href={url} className={`icon ${style} ${icon}`}>
-                <span className="label">{name}</span>
+              <a href={url} target="_blank" className={`icon ${style} ${icon}`}>
               </a>
+              <span className="label"> {name}</span>
             </li>
           );
         })}
       </ul>
-      <ul className="copyright">
-        <li>&copy; Spectral</li>
+      <ul className="copyright" style={{fontSize: '0.6em'}}>
+        <li>&copy; DIFEZ</li>
         <li>
-          Design: <a href="http://html5up.net">HTML5 UP</a>
+          Design: <a href="http://html5up.net" target="_blank" >HTML5 UP</a>
         </li>
       </ul>
     </footer>

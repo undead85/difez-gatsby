@@ -16,17 +16,13 @@ const IndexPage = () => (
         <p>{config.subHeading}</p>
         <ul className="actions special">
           <li>
-            <Scroll type="id" element="one">
-              <a href="/#" className="button primary">
-                Explore
-              </a>
-            </Scroll>
+          Contacto +56 978-602-227
           </li>
         </ul>
       </div>
       <Scroll type="id" element="one">
         <a href="#one" className="more">
-          Learn More
+          Ver más
         </a>
       </Scroll>
     </section>
@@ -35,35 +31,16 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Arcu aliquet vel lobortis ata nisl
-            <br />
-            eget augue amet aliquet nisl cep donec
+            Compromiso al cliente
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            Buscar el incremento del valor patrimonial en base a sus estados financieros y sus diferentes 
+            partidas asociadas como el instrumento de financiamiento y el capital de trabajo como alma del negocio.
+            <br /><br />
+            Detección de riesgos, planificación de trabajo y aplicación de las mejoras con el fin de construir 
+            viabilidad de la empresa en el trascurso del tiempo.
           </p>
         </header>
-        <ul className="icons major">
-          <li>
-            <span className="icon fa-gem major style1">
-              <span className="label">Lorem</span>
-            </span>
-          </li>
-          <li>
-            <span className="icon fa-heart major style2">
-              <span className="label">Ipsum</span>
-            </span>
-          </li>
-          <li>
-            <span className="icon solid fa-code major style3">
-              <span className="label">Dolor</span>
-            </span>
-          </li>
-        </ul>
       </div>
     </section>
 
@@ -74,13 +51,16 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Magna primis lobortis
-            <br />
-            sed ullamcorper
+            Contabilidad
           </h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+          <p>          
+            Servicio contable completo.<br/>
+            Determinación del cálculo de IVA.<br/>
+            Determinación de renta y sus obligaciones de acesorias anuales.<br/>
+            Ingreso de compras y ventas electrónicas.<br/>
+            Confección del presupuesto de la empresa.<br/>
+            Reportabilidad.<br/>
+            Balance proyectado (Reporte Mensual).
           </p>
         </div>
       </section>
@@ -90,13 +70,14 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Tortor dolore feugiat
-            <br />
-            elementum magna
+          Asesoría legal y tributaria
+            
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            Planificación tributaria.<br />
+            Asesoría en Regímenes Especiales.<br />
+            Utilización Reinversión de utilidades.<br />
+            Declaraciones tributarias de carácter legal.
           </p>
         </div>
       </section>
@@ -106,13 +87,13 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Augue eleifend aliquet
-            <br />
-            sed condimentum
+            Auditorias
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            Auditoria de estados financieros.<br />
+            Auditorias de control interno.<br />
+            Auditoria de clima organizacional.<br />
+            Auditoria en temas específicos.
           </p>
         </div>
       </section>
@@ -121,63 +102,57 @@ const IndexPage = () => (
     <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
-          <h2>Accumsan mus tortor nunc aliquet</h2>
+          <h2>Código de ética</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            El profesional de la contabilidad cumplirá los siguientes principios fundamentales
           </p>
         </header>
         <ul className="features">
-          <li className="icon fa-paper-plane">
-            <h3>Arcu accumsan</h3>
+          <li className="icon fa-heart">
+            <h3>Integridad</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+            Ser franco y honesto en todas las relaciones profesionales y empresariales.
             </p>
           </li>
-          <li className="icon solid fa-laptop">
-            <h3>Ac Augue Eget</h3>
+          <li className="icon solid fa-balance-scale">
+            <h3>Objetividad</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+            No permitir que prejuicios, conflicto de intereses o influencia indebida de terceros prevalezcan 
+            sobre los juicios profesionales o empresariales.
             </p>
           </li>
-          <li className="icon solid fa-code">
-            <h3>Mus Scelerisque</h3>
+          <li className="icon solid fa-flag">
+            <h3>Competencia</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+            Mantener el conocimiento y la aptitud profesionales al nivel necesario para asegurar que el cliente 
+            o la entidad para la que trabaja reciben servicios profesionales competentes basados en los últimos 
+            avances de la práctica, de la legislación y de las técnicas y actuar con diligencia y de conformidad 
+            con las normas técnicas y profesionales aplicables.
             </p>
           </li>
           <li className="icon solid fa-headphones-alt">
-            <h3>Mauris Imperdiet</h3>
+            <h3>Confidencialidad</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+            Respetar la confidencialidad de la información obtenida como resultado de relaciones profesionales 
+            y empresariales y, en consecuencia, no revelar dicha información a terceros 
+            sin autorización adecuada y específica, salvo que exista un derecho o deber legal o profesional 
+            de revelarla, ni hacer uso de la información en provecho propio o de terceros.
             </p>
           </li>
-          <li className="icon fa-heart">
-            <h3>Aenean Primis</h3>
+          <li className="icon solid fa-sign-language">
+            <h3>Comportamiento profesional</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+            Cumplir las disposiciones legales y reglamentarias aplicables y evitar cualquier 
+            actuación que pueda desacreditar a la profesión. Cada uno de los principios 
+            fundamentales se analiza con más detalle en las Secciones 110 a 150.
             </p>
           </li>
-          <li className="icon fa-flag">
-            <h3>Tortor Ut</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
+         
         </ul>
       </div>
     </section>
 
-    <section id="cta" className="wrapper style4">
+    {/* <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
           <h2>Arcue ut vel commodo</h2>
@@ -199,7 +174,7 @@ const IndexPage = () => (
           </li>
         </ul>
       </div>
-    </section>
+    </section> */}
   </Layout>
 );
 
