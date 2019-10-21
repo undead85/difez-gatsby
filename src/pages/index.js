@@ -57,7 +57,7 @@ const IndexPage = () => (
             <ul style={{listStyleType: 'none', textAlign: 'left'}}>
               <li>Servicio contable completo.</li>
               <li>Determinación del cálculo de IVA.</li>
-              <li>Determinación de renta y sus obligaciones de acesorias anuales.</li>
+              <li>Determinación de renta y sus obligaciones de asesorías anuales.</li>
               <li>Ingreso de compras y ventas electrónicas.</li>
               <li>Confección del presupuesto de la empresa.</li>
               <li>Reportabilidad.</li>
