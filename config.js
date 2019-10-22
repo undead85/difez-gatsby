@@ -1,6 +1,6 @@
 module.exports = {
-  siteTitle: 'Estudio Jurídico DIFEZ', // <title>
-  manifestName: 'Estudio Jurídico DIFEZ',
+  siteTitle: 'Estudio Jurídico Contable DIFEZ', // <title>
+  manifestName: 'Estudio Jurídico Contable DIFEZ',
   manifestShortName: 'DIFEZ', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
@@ -8,7 +8,7 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/weight-scale.png',
   pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Estudio Jurídico DIFEZ',
+  heading: 'Estudio Jurídico Contable DIFEZ',
   subHeading: 'Comprometidos con la visión de los clientes  ',
   // social
   socialLinks: [
