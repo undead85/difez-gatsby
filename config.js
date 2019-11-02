@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/weight-scale.png',
   pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Estudio Jurídico Contable DIFEZ',
-  subHeading: 'Comprometidos con la visión de los clientes  ',
+  subHeading: '',
   // social
   socialLinks: [
     // {
