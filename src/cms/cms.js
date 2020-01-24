@@ -1,28 +1,40 @@
-/**
- * The default export of `netlify-cms-app` is an object with all of the Netlify CMS
- * extension registration methods, such as `registerWidget` and
- * `registerPreviewTemplate`.
- */
-import CMS from 'netlify-cms-app';
+import React from 'react'
+import CMS from 'netlify-cms-app'
+import './cms-utils'
 
-/**
- * Any imported styles will automatically be applied to the editor preview
- * pane, there is no need to use `registerPreviewStyle` for imported styles.
- * All of the example imports below would result in styles being applied to the
- * preview pane.
- */
-import 'module-that-imports-styles.js';
-import 'styles.scss';
-import '../other-styles.css';
+import { HomePageTemplate } from '../templates/HomePage'
+import { ComponentsPageTemplate } from '../templates/ComponentsPage'
+import { ContactPageTemplate } from '../templates/ContactPage'
+import { DefaultPageTemplate } from '../templates/DefaultPage'
+import { BlogIndexTemplate } from '../templates/BlogIndex'
+import { SinglePostTemplate } from '../templates/SinglePost'
 
-/**
- * Let's say you've created widget and preview components for a custom image
- * gallery widget in separate files:
- */
-import ImageGalleryWidget from './image-gallery-widget.js';
-import ImageGalleryPreview from './image-gallery-preview.js';
+if (
+  window.location.hostname === 'localhost' &&
+  window.localStorage.getItem('netlifySiteURL')
+) {
+  CMS.registerPreviewStyle(
+    window.localStorage.getItem('netlifySiteURL') + '/styles.css'
+  )
+} else {
+  CMS.registerPreviewStyle('/styles.css')
+}
 
-/**
- * Register the imported widget:
- */
-CMS.registerWidget(`image-gallery`, ImageGalleryWidget, ImageGalleryPreview);
+CMS.registerPreviewTemplate('home-page', ({ entry }) => (
+  <HomePageTemplate {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('components-page', ({ entry }) => (
+  <ComponentsPageTemplate {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('contact-page', ({ entry }) => (
+  <ContactPageTemplate {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('infoPages', ({ entry }) => (
+  <DefaultPageTemplate {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('blog-page', ({ entry }) => (
+  <BlogIndexTemplate {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('posts', ({ entry }) => (
+  <SinglePostTemplate {...entry.toJS().data} />
+))
