@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-import { StaticQuery, graphql } from 'gatsby';
+import {StaticQuery, graphql } from 'gatsby';
 
 import '../assets/sass/main.scss';
 import Footer from './Footer';
@@ -51,6 +51,7 @@ class Layout extends Component {
               ]}
             >
               <html lang="es" />
+              <script src="https://s.cliengo.com/weboptimizer/5fd5162c7572fd002a68ba3e/5fd5162d7572fd002a68ba41.js" type="text/javascript" />
             </Helmet>
             <div
               className={
