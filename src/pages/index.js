@@ -7,6 +7,10 @@ import Scroll from '../components/Scroll';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
+import pic4 from '../assets/images/pic012.jpg';
+import pic5 from '../assets/images/pic013.jpg';
+import pic6 from '../assets/images/pic011.jpg';
+import pic7 from '../assets/images/pic08.jpg';
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
@@ -17,6 +21,9 @@ const IndexPage = () => (
         <ul className="actions special">
           <li>
           Contacto +56 978-602-227
+          </li>
+          <li>
+            Solicite su cotización sin costo
           </li>
         </ul>
       </div>
@@ -101,6 +108,101 @@ const IndexPage = () => (
               <li>Auditoria en temas específicos.</li>
             </ul>
          
+        </div>
+      </section>
+      <section className="spotlight">
+        <div className="image">
+          <img src={pic4} alt="" />
+        </div>
+        <div className="content">
+          <h2>
+            Creación de Sociedades
+          </h2>
+
+          <ul style={{ listStyleType: 'none', textAlign: 'left' }}>
+            <li>Constitución de empresa (persona natural o jurídica) en portal "Tu empresa en un día".</li>
+            <li>Firma de estatutos de sociedad de forma 100% online..</li>
+            <li>Inscripción para emitir documentos tributarios.</li>
+            <li>Asesoría en el modelo social.</li>
+            <li>Redacción del objeto social.</li>
+            <li>Obtención del RUT.</li>
+            <li>Constitución de empresas, SPA, S.A, EIRL, LTDA.</li>
+            <li>Inicio de actividades en Servicio de Impuestos Internos.</li>
+            <li>Factura Electrónica, proceso de compra, implementación y utilización.</li>
+          </ul>
+
+        </div>
+      </section>
+      <section className="spotlight">
+        <div className="image">
+          <img src={pic5} alt="" />
+        </div>
+        <div className="content">
+          <h2>
+            Servicios Mensuales
+          </h2>
+
+          <ul style={{ listStyleType: 'none', textAlign: 'left' }}>
+            <li>Libros de compras-ventas.</li>
+            <li>Cálculo IVA Exportador.</li>
+            <li>Confección y declaración de impuestos mensuales IVA (F29-F50).</li>
+            <li>Confección de Liquidaciones de sueldo, Libros de sueldos y honorarios.</li>
+            <li>Confección de Contratos de trabajo, Cartas despido y finiquitos.</li>
+            <li>Certificados de cumplimiento de contratistas (F30 y F30-1).</li>
+            <li>Cálculo de PPM y Base imponible.</li>
+            <li>Inicio y Término de giro.</li>
+            <li>Cálculo Impuesto Específico.</li>
+            <li>Balances mensuales, trimestrales, semestrales o anuales.</li>
+            <li>Trámites ante SII, TG, entidades públicas (COMPIN, Isapres, AFP, AFC).</li>
+            <li>Asesorías a emprendedores.</li>
+          </ul>
+
+        </div>
+      </section>
+      <section className="spotlight">
+        <div className="image">
+          <img src={pic6} alt="" />
+        </div>
+        <div className="content">
+          <h2>
+            Servicios Anuales
+          </h2>
+
+          <ul style={{ listStyleType: 'none', textAlign: 'left' }}>
+            <li>Confección y declaración de Balance e impuestos anuales a la renta (F22).</li>
+            <li>Declaraciones Juradas Anuales.</li>
+            <li>Estados financieros.</li>
+            <li>Reforma Tributaria.</li>
+            <li>Nuevo régimen tributario 14 ter.</li>
+            <li>Nuevo régimen tributario 14 A.</li>
+            <li>Nuevo régimen tributario 14 B.</li>
+            <li>Confección F22 (Formulario Declaración de Renta) Empresas y Socios.</li>
+            <li>DDJJ (Declaraciones Juradas) Según régimen tributario.</li>
+            <li>Asesoría en la elección del régimen tributario (14-A, 14-D N°3, 14-D N°8, Renta Presunta)</li>
+          </ul>
+
+        </div>
+      </section>
+      <section className="spotlight">
+        <div className="image">
+          <img src={pic7} alt="" />
+        </div>
+        <div className="content">
+          <h2>
+            Servicios remuneraciones
+          </h2>
+
+          <ul style={{ listStyleType: 'none', textAlign: 'left' }}>
+            <li>Confección de contratos y anexos.</li>
+            <li>Simulación renta del trabajador.</li>
+            <li>Cálculo de liquidación de Remuneraciones.</li>
+            <li>Obligaciones previsionales.</li>
+            <li>Reporte costo empresa de trabajadores.</li>
+            <li>Nóminas de pago.</li>
+            <li>Pago de cotizaciones previsionales por PREVIRED.</li>
+            <li>Libro de Remuneraciones.</li>
+          </ul>
+
         </div>
       </section>
     </section>
