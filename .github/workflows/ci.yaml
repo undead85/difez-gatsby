@@ -1,0 +1,17 @@
+name: CI demo
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  angel-job:
+    runs-on: ubuntu-latest
+    steps:
+      - env: 
+          MY_ENV: "H E L L O _ E N V *"
+        run: |
+          echo $MY_ENV
+
+      
